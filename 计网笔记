@@ -1,0 +1,8 @@
+如何给编辑框设置文本内容（cedit）
+CWnd* pWnd = GetDlgItem(IDC_MYEDIT);
+pWnd->SetWindowText(_T("Hockey is best!"));
+
+
+int lastLine = m_message.LineIndex(m_message.GetLineCount() - 1);
+m_message.SetSel(lastLine+1,lastLine+2,0);
+m_message.ReplaceSel(msg); 
