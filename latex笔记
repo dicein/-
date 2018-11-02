@@ -1,0 +1,33 @@
+1.下划线 \underline{\hspace{0.5em}}
+2.打出\  
+
+头文件
+\usepackage{amssymb}
+
+\usepackage{amsmath}
+
+$\backslash$
+
+
+3.加粗    {\bfseries 这段我希望他能加黑啊}
+
+4.右箭头   $\rightarrow$
+
+5.代码框
+
+\begin{lstlisting}
+\end{lstlisting}
+
+6.问题框
+
+\begin{shaded}
+\end{shaded}
+
+7.插入图片
+\includegraphics[width=\textwidth]{img/1.png}
+
+8.中括号
+{[}   {]}
+
+9.^
+\textasciicircum
